@@ -1,34 +1,32 @@
-// Container
-.container {
-  width: 100%;
-  max-width: 480px;
-}
 
-// Header
-.header {
-  h1 {
-    font-weight: 800;
-    font-size: 2rem;
-    margin: 0;
-    margin-bottom: 6px;
-  }
-
-  h3 {
-    font-weight: 300;
-    font-size: 1.25rem;
-    margin: 0;
-  }
-}
 
 .game-container {
+  background-color: white;
   max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.63);
 }
 
-h1, h2, h3, p {
+
+h1,
+h2,
+h3,
+p {
   margin-bottom: 10px;
+}
+
+.container-dif{
+  display: flex;
+  justify-content: space-around;
 }
 
 .answers-list {
@@ -49,8 +47,12 @@ h1, h2, h3, p {
   background-color: #f2f2f2;
 }
 
-.selected {
+.correct {
   background-color: #aaf2aa !important;
+}
+
+.incorrect {
+  background-color: #f28a8a !important;
 }
 
 .next-button {
